@@ -18,7 +18,7 @@ jobs:
            mkdir .vercel
            cd .vercel
            touch project.json
-           echo"{"orgId":"tbMQBoycAoiYehCVpgq2fvUz","projectId":"prj_dqW6hA4XrvNlctlMkg4iWPuFZoHD"}"
+           echo "{"orgId":"tbMQBoycAoiYehCVpgq2fvUz","projectId":"prj_dqW6hA4XrvNlctlMkg4iWPuFZoHD"}" > project.json
 
       - name: Deploying the project
         env: 
