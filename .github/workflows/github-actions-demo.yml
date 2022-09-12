@@ -15,10 +15,11 @@ jobs:
       - name : set the vercel enc
         run: |
            cd build
-           mkdir.vercel
+           mkdir .vercel
+           cd .vercel
            touch project.json
            echo"{"orgId":"tbMQBoycAoiYehCVpgq2fvUz","projectId":"prj_dqW6hA4XrvNlctlMkg4iWPuFZoHD"}"
-           
+
       - name: Deploying the project
         env: 
           VERCEL_ORG_ID: tbMQBoycAoiYehCVpgq2fvUz
