@@ -12,8 +12,8 @@ jobs:
         run: yarn
       - name: Build the project
         run: yarn build
-      -name: Deploying the project
-       env: 
+      - name: Deploying the project
+        env: 
           VERCEL_ORG_ID: tbMQBoycAoiYehCVpgq2fvUz
           VERCEL_PROJECT_ID: prj_dqW6hA4XrvNlctlMkg4iWPuFZoHD
         run: yarn deploy
