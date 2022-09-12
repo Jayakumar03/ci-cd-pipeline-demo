@@ -10,7 +10,7 @@ jobs:
               node-version : "14.17.0"
       - name : Install node_module
         run: yarn
-      - name: Bulid the project
+      - name: Build the project
         run: yarn bulid
       - name : setup finish
         run: echo "hurray"
