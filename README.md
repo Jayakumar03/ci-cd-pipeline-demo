@@ -7,5 +7,5 @@ Run the following command to install the dependices form package.json
 
  2) Learned how to continues deployment vercel 
 
-# Link of deployemnt in vercel : https://test-build-1on7dsdl7-jayakumar03.vercel.app/
+Link of deployemnt in vercel : https://test-build-1on7dsdl7-jayakumar03.vercel.app/
 
